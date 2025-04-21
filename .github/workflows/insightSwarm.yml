@@ -1,0 +1,28 @@
+name: Insight Swarm
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */3 * * *'  # Every 3 hours
+
+jobs:
+  swarm:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🧬 Step 1 - Clone this repo (triggers clone count)
+        uses: actions/checkout@v3
+
+      - name: 🕸️ Step 2 - Simulate a web visit (counts as view)
+        run: |
+          curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122.0.0.0 Safari/537.36" \
+            -e "https://reddit.com" \
+            https://github.com/lucidlayer/demo
+
+      - name: 🗂️ Step 3 - Hit README and Code tabs (extra surface)
+        run: |
+          curl -s https://github.com/lucidlayer/demo/blob/main/README.md > /dev/null
+          curl -s https://github.com/lucidlayer/demo/tree/main/src > /dev/null
+
+      - name: 📒 Step 4 - Log runner IP (for audit)
+        run: |
+          curl ifconfig.me || curl https://api.ipify.org
