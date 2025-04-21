@@ -3,26 +3,27 @@ name: Insight Swarm
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */3 * * *'  # Every 3 hours
+    - cron: '0 */2 * * *'  # Every 2 hours
 
 jobs:
   swarm:
     runs-on: ubuntu-latest
     steps:
-      - name: 🧬 Step 1 - Clone this repo (triggers clone count)
+      - name: 🧬 Clone this repo (triggers clone)
         uses: actions/checkout@v3
 
-      - name: 🕸️ Step 2 - Simulate a web visit (counts as view)
+      - name: 🌐 Visit repo with random headers
         run: |
-          curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122.0.0.0 Safari/537.36" \
-            -e "https://reddit.com" \
-            https://github.com/lucidlayer/demo
-
-      - name: 🗂️ Step 3 - Hit README and Code tabs (extra surface)
+          UA=$(shuf -n1 -e \
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122.0.0.0 Safari/537.36" \
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4) AppleWebKit/605.1.15 Version/16.0 Safari/605.1.15" \
+            "Mozilla/5.0 (Linux; Android 13; Pixel 6) AppleWebKit/537.36 Chrome/120.0.6099.66 Mobile Safari/537.36")
+          REF=$(shuf -n1 -e https://reddit.com https://news.ycombinator.com https://twitter.com)
+          curl -A "$UA" -e "$REF" https://github.com/lucidlayer/demo
+      - name: "🔁 Bonus: Hit more pages"
         run: |
           curl -s https://github.com/lucidlayer/demo/blob/main/README.md > /dev/null
           curl -s https://github.com/lucidlayer/demo/tree/main/src > /dev/null
-
-      - name: 📒 Step 4 - Log runner IP (for audit)
-        run: |
-          curl ifconfig.me || curl https://api.ipify.org
+          curl -s https://github.com/lucidlayer/demo/issues > /dev/null
+      - name: "📒 Log runner IP (for audit)"
+        run: curl -s ifconfig.me || curl -s https://api.ipify.org
