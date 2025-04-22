@@ -1,4 +1,7 @@
-# Traceform Demo Projects
+<h1 align="center">Traceform: Demo projects</h1>
+<p align="center">Ready to use demo projects so you can safely try, test, and get comfortable with the full Traceform toolchain before using it in your own React apps.</p> 
+
+
 
 <p align="center">
   <a href="https://github.com/lucidlayer/traceform-demo/stargazers">
@@ -18,10 +21,14 @@
   </a>
 </p>
 
-> Experience Traceform's powerful developer workflow in real React projects! These demos let you try the full Traceform toolchain—CLI, VS Code extension, and browser extension—on real codebases, with step-by-step onboarding.
+```bash
+npx @lucidlayer/traceform-onboard check
+```
 
 ![Traceform CLI onboarding demo](.github/demo.gif)
 *See above for a visual walkthrough of the onboarding and validation process.*
+
+Watch here: https://www.youtube.com/watch?v=0ZnyWkS2g44
 
 ---
 
