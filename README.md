@@ -28,22 +28,17 @@ Follow these steps to set up and run Traceform with any of the demo projects:
     npm install
     ```
 
-4.  **Install Traceform Dependency:** Install the required `@types/node` package.
-    ```bash
-    npm install --save-dev @types/node
-    ```
-
-5.  **Run Traceform Onboarding:** Start the Traceform onboarding process. This interactive tool will guide you through setting up the necessary and required components (Browser Extension, Babel Plugin, VS Code Extension).
+4.  **Run Traceform Onboarding:** Start the Traceform onboarding process. This interactive tool will guide you through setting up the necessary and required components (Browser Extension, Babel Plugin, VS Code Extension).
     ```bash
     npx @lucidlayer/traceform-onboard check
     ```
     Follow the prompts provided by the onboarding tool.
 
-6.  **Run the Demo Project:** Once Traceform setup is complete, start the demo application's development server.
+5.  **Run the Demo Project:** Once Traceform setup is complete, start the demo application's development server.
     ```bash
     npm run dev
     ```
 
-7.  **View the Project:** Open your web browser and navigate to the local address provided in the terminal (usually `http://localhost:5173` or similar).
+6.  **View the Project:** Open your web browser and navigate to the local address provided in the terminal (usually `http://localhost:5173` or similar).
 
 You can now explore the demo project and see Traceform in action! Repeat these steps for any other demo project you wish to try.
