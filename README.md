@@ -12,9 +12,10 @@
   </a>
 </p>
 
-```bash
-npx @lucidlayer/traceform-onboard check
-```
+
+<p align="center">
+  <code>npx @lucidlayer/traceform-onboard check</code><br/> 
+</p>
 
 ![Traceform CLI onboarding demo](.github/demo.gif)
 *See above for a visual walkthrough of the onboarding and validation process.*
