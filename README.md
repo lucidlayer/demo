@@ -4,20 +4,20 @@
 
 
 <p align="center">
-  <a href="https://github.com/lucidlayer/traceform-demo/stargazers">
-    <img src="https://img.shields.io/github/stars/lucidlayer/traceform-demo?style=social" alt="GitHub stars" />
+  <a href="https://github.com/lucidlayer/demo/stargazers">
+    <img src="https://img.shields.io/github/stars/lucidlayer/demo?style=social" alt="GitHub stars" />
   </a>
-  <a href="https://github.com/lucidlayer/traceform-demo/network/members">
-    <img src="https://img.shields.io/github/forks/lucidlayer/traceform-demo?style=social" alt="GitHub forks" />
+  <a href="https://github.com/lucidlayer/demo/network/members">
+    <img src="https://img.shields.io/github/forks/lucidlayer/demo?style=social" alt="GitHub forks" />
   </a>
-  <a href="https://github.com/lucidlayer/traceform-demo/issues">
-    <img src="https://img.shields.io/github/issues/lucidlayer/traceform-demo.svg" alt="GitHub issues" />
+  <a href="https://github.com/lucidlayer/demo/issues">
+    <img src="https://img.shields.io/github/issues/lucidlayer/demo.svg" alt="GitHub issues" />
   </a>
-  <a href="https://github.com/lucidlayer/traceform-demo/commits/main">
-    <img src="https://img.shields.io/github/last-commit/lucidlayer/traceform-demo.svg" alt="Last commit" />
+  <a href="https://github.com/lucidlayer/demo/commits/main">
+    <img src="https://img.shields.io/github/last-commit/lucidlayer/demo.svg" alt="Last commit" />
   </a>
-  <a href="https://github.com/lucidlayer/traceform-demo">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=lucidlayer.traceform-demo" alt="Page views" />
+  <a href="https://github.com/lucidlayer/demo">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=lucidlayer.demo" alt="Page views" />
   </a>
 </p>
 
