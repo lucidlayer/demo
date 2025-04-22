@@ -7,15 +7,6 @@
   <a href="https://github.com/lucidlayer/demo/stargazers">
     <img src="https://img.shields.io/github/stars/lucidlayer/demo?style=social" alt="GitHub stars" />
   </a>
-  <a href="https://github.com/lucidlayer/demo/network/members">
-    <img src="https://img.shields.io/github/forks/lucidlayer/demo?style=social" alt="GitHub forks" />
-  </a>
-  <a href="https://github.com/lucidlayer/demo/issues">
-    <img src="https://img.shields.io/github/issues/lucidlayer/demo.svg" alt="GitHub issues" />
-  </a>
-  <a href="https://github.com/lucidlayer/demo/commits/main">
-    <img src="https://img.shields.io/github/last-commit/lucidlayer/demo.svg" alt="Last commit" />
-  </a>
   <a href="https://github.com/lucidlayer/demo">
     <img src="https://visitor-badge.laobi.icu/badge?page_id=lucidlayer.demo" alt="Page views" />
   </a>
