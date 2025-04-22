@@ -1,5 +1,9 @@
 # Traceform Demo Projects
 
+
+![Traceform cli onboarding tool demonstrating easy setup of all 3 required tools from the traceform code to ui toolset](./.github/demo.gif "GIF showing traceform cli npm onboarding tool and highlighting a React button in Chrome from VS Code")
+
+
 This repository contains four demo projects designed to showcase Traceform's capabilities. Each project is pre-configured without Traceform, allowing you to go through the setup process yourself.
 
 ## Prerequisites
