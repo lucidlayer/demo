@@ -18,6 +18,7 @@
 </p>
 
 ![Traceform CLI onboarding demo](.github/demo.gif)
+
 *See above for a visual walkthrough of the onboarding and validation process.*
 
 Watch here: https://www.youtube.com/watch?v=0ZnyWkS2g44
