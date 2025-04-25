@@ -79,7 +79,6 @@ Pick any demo to try Traceform from scratch:
    ```
 3. **Install Traceform Onboarding CLI and Types**
    ```bash
-   npm install --save-dev @types/node
    npx @lucidlayer/traceform-onboard check
    ```
    _Follow the interactive wizard to set up the Babel plugin, VS Code extension, and browser extension._
