@@ -15,8 +15,8 @@ import { FiMenu, FiX } from 'react-icons/fi';
 
 // Highlight: "Navbar" and right click "TraceformL Find component in UI"
 const Navbar: React.FC = () => {
-  const { open, onOpen, onClose } = useDisclosure();
-  const isOpen = open;
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const isOpenState = isOpen;
   const bg = 'red.500';
   const borderColor = 'purple.300';
 
